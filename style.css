@@ -1,0 +1,59 @@
+/* Importing Google Font Monteserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    margin: 40px auto;
+    display: flex;
+    height: 420px;
+    width: 450px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main div {
+    border: 1px solid #7f7f7f;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 5px #f2f2f2;
+    margin: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.blue {
+    background-color: #b3dee2;
+}
+
+.green {
+    background-color: #efdda2;
+}
+
+
+.red {
+    background-color: #e27396;
+}
+
+.pink {
+    background-color: #efcfe3;
+}
+
+.white {
+    background-color: white;
+}
+
+.light-green {
+    background-color: #bde54c;
+}
+
+.danger {
+    background-color: #ef233c;
+}
